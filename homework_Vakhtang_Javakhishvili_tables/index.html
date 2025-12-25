@@ -14,6 +14,7 @@
             the <mark>Darkness</mark> bind them.</p>
         <p>Gold<sup>Au</sup> Power Level: <sup>10</sup> / <sub>9</sub></p>
     </div>
+    <!-- header and navigation -->
     <header>
         <h2>
             Expedition Report
@@ -26,9 +27,11 @@
             </div>
         </nav>
     </header>
+    <!-- The Hero Section -->
     <main>
         <section class="hero-banner">
             <div>
+                <!-- Main Title -->
                 <h1 style="font-size: 60px; margin: 0;">
                     The Lord of the Rings
                 </h1>
@@ -37,6 +40,7 @@
                 </p>
             </div>
         </section>
+        <!-- The Heroes (Images & Content) -->
         <section id="heroes-mission">
             <h2>
                 Current Mission
@@ -56,7 +60,7 @@
                 <figure>
                     <img src="./assets/Legolas.jpeg" alt="Legolas">
                     <figcaption>
-                        <p>The Elves see both very swift and very slow.</p>
+                        The Elves see both very swift and very slow.
                     </figcaption>
                 </figure>
                 <figure>
@@ -73,6 +77,7 @@
                 </figure>
             </div>
         </section>
+        <!-- The Quest Log -->
         <section id="quest-log">
             <h2>
                 Active Quest Log
@@ -85,8 +90,9 @@
             <ul>
                 <li>Locate the Rohirrim Riders.</li>
                 <li>Defeat Saruman.</li>
-                <li>Leisure Activities. <br>
-                    <ul>
+                <!-- Nested list. We must put new list (<ol> or <ul>) in <li> tag -->
+                <li>Leisure Activities.
+                    <ul> 
                         <li>Beat Gimli in a drinking contest.</li>
                         <li>Smoke pipe with Gendalf.</li>
                     </ul>
@@ -94,6 +100,7 @@
 
             </ul>
         </section>
+        <!-- Enemy Intel (Interactive Details) -->
         <section id="enemy-intel">
             <h2>
                 Known Threats
@@ -107,11 +114,14 @@
                 <p>Weakness: Turns to stone in sunlight.</p>
             </details>
         </section>
+        <!-- The Logistics (Complex Table) -->
         <section id="fellowship-table">
             <h2>
                 Fellowship Resource & Gear Ledger
             </h2>
-            <table style="border: 1px; width: 100%;">
+            <!-- გავითვალისწინე რჩევა და სტილი არ გამოვიყენე ატრიბუტად -->
+            <!-- <table style="border: 1px; width: 100%;"> -->
+                <table>
                 <thead>
                     <tr>
                         <th>Hero</th>
