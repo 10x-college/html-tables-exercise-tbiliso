@@ -70,7 +70,7 @@
 3.  **Main Quest:** Create an **Ordered List** `<ol>`:
     1.  Cross the Dead Marshes.
     2.  Climb the Stairs of Cirith Ungol.
-    3.  **Cast the Ring into the Fire.** (Make this item `<strong>`)
+    3.  **** (Make this item `<strong>`)
 4.  **Side Quests:** Create an **Unordered List** `<ul>`:
     -   Locate the Rohirrim Riders.
     -   Defeat Saruman.
